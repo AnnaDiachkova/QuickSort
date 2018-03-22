@@ -50,7 +50,7 @@ namespace QuickSort
             int[] array = new int[100];
             for (int i = 0; i < array.Length; i++)
                 array[i] = 5;
-            Console.Write("\n2)Сортировка массива из 100 одинаковых числе работает корректно.\n");
+            Console.Write("\n2)Сортировка массива из 100 одинаковых чисел работает корректно.\n");
             array = QuickSort(array, 0, array.Length - 1);
             Console.Write(" Элементы: ");
             for (int i = 0; i < array.Length; i++)
