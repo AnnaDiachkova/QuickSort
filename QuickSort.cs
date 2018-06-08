@@ -73,7 +73,7 @@ namespace QuickSort
             int[] array = { };
             array = QuickSort(array, 0, array.Length - 1);
             if (array == null)
-                Console.Write("\n4)Сортировка пустого массива работает корректно.\n");
+                Console.Write("\n4)Сортировка пустого массива невозможна.\n");
         }
     }
 }
